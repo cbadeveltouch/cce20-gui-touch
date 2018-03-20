@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html manifest="">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <title>CBA Cartella 2.0 Mobile</title>
+    <link rel="shortcut icon" href="logo-cba-group-64.png">
+    <link rel="stylesheet" href="resources/standard.css" />
+	<style>
+			body {
+			  background-color: #3F51B5;
+			}
+
+			.spinner {
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  z-index: 1;
+			  height: 50px;
+			  width: 50px;
+			  transform: translate(-50%, -50%);
+			}
+
+			[class^="ball-"] {
+			  position: absolute;
+			  display: block;
+			  left: 24px;
+			  width: 28px;
+			  height: 28px;
+			  border-radius: 6px;
+			  transition: all 1.0s;
+			  animation: circleRotate 6s both infinite;
+			  transform-origin: 0 100% 0;
+			}
+
+			@keyframes circleRotate {
+			  0% {
+				transform: rotate(0deg);
+			  }
+			  100% {
+				transform: rotate(1440deg);
+			  }
+			}
+			.ball-1 {
+			  z-index: -1;
+			  background-color: #2196F3;
+			  animation-timing-function: cubic-bezier(0.5, 0.3, 0.9, 0.9);
+			}
+
+			.ball-2 {
+			  z-index: -2;
+			  background-color: #03A9F4;
+			  animation-timing-function: cubic-bezier(0.5, 0.6, 0.9, 0.9);
+			}
+
+			.ball-3 {
+			  z-index: -3;
+			  background-color: #00BCD4;
+			  animation-timing-function: cubic-bezier(0.5, 0.9, 0.9, 0.9);
+			}
+
+			.ball-4 {
+			  z-index: -4;
+			  background-color: #009688;
+			  animation-timing-function: cubic-bezier(0.5, 1.2, 0.9, 0.9);
+			}
+
+			.ball-5 {
+			  z-index: -5;
+			  background-color: #4CAF50;
+			  animation-timing-function: cubic-bezier(0.5, 1.5, 0.9, 0.9);
+			}
+
+			.ball-6 {
+			  z-index: -6;
+			  background-color: #8BC34A;
+			  animation-timing-function: cubic-bezier(0.5, 1.8, 0.9, 0.9);
+			}
+
+			.ball-7 {
+			  z-index: -7;
+			  background-color: #CDDC39;
+			  animation-timing-function: cubic-bezier(0.5, 2.1, 0.9, 0.9);
+			}
+
+			.ball-8 {
+			  z-index: -8;
+			  background-color: #FFEB3B;
+			  animation-timing-function: cubic-bezier(0.5, 2.4, 0.9, 0.9);
+			}
+		</style>
+    <!-- The line below must be kept intact for Sencha Cmd to build your application -->
+    <script id="microloader" data-app="6bb12239-2af4-43a9-ac88-de106608d801" type="text/javascript" src="bootstrap.js"></script>
+	<script type="text/javascript">
+		CbaRootServer = 'http://192.168.100.56:8080';
+	</script>
+</head>
+<body>
+<div id="appLoadingIndicator" class="spinner">
+		  <span class="ball-1"></span>
+		  <span class="ball-2"></span>
+		  <span class="ball-3"></span>
+		  <span class="ball-4"></span>
+		  <span class="ball-5"></span>
+		  <span class="ball-6"></span>
+		  <span class="ball-7"></span>
+		  <span class="ball-8"></span>
+</div>
+</body>
+</html>

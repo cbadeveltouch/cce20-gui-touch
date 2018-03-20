@@ -1,0 +1,13 @@
+.project
+*.log
+
+/build
+
+/cordova/platforms/android/.gradle
+/cordova/platforms/android/CordovaLib
+/cordova/platforms/android/cordova
+/cordova/res
+/cordova/hooks
+/cordova/platforms/android/build.gradle
+/cordova/platforms/android/settings.gradle
+/cordova/platforms/android/wrapper.gradle

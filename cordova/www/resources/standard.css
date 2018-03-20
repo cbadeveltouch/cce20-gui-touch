@@ -1,0 +1,1715 @@
+/*pulsanti come label*/
+.x-big .x-menu-body-el > .x-menuitem .x-icon-wrap-el{
+	width: 10px !important;
+}
+.borderPanel .x-panel-body-wrap-el{
+	border: 2px solid #9ba7c8 !important;
+	border-radius: 10px;
+}
+
+.cbaMenuTerapie .x-button .x-text-el{
+	white-space: pre-wrap !important;
+}
+
+.cbaMenuTerapie .x-button .x-body-el{
+	margin: none !important;
+}
+
+.cbaInnerList{
+	width: 100% !important;
+}
+
+/*override grid*/
+.cbagridRow{
+	padding: 0px 12px !important;
+}
+
+/*override list selection*/
+.x-listswiper-shadow{
+	box-shadow: none !important;
+	border-bottom: none /*0.5px solid #2196f3*/ !important;
+}
+
+.cbaDataView .x-dataview-item{
+	padding: 25px !important;
+	border-bottom: 0.1px solid rgba(17, 17, 17, 0.54) !important;
+}
+
+.cbaDataViewText {
+	text-transform: uppercase !important;
+	font-weight: bold !important;
+}
+
+.borderSearch {
+	border: 1px solid #5fa2dd !important;
+	border-radius: 100px !important;
+	box-shadow: 2px 2px 1px #888888 !important;
+}
+.labelStrong {
+	font-weight: bold !important;
+}
+.row-grid-background-lightgreen {
+    background-color: #dbffd8;
+}
+/*Slider triton
+.custom-slider .x-thumb {
+    width: 15px;
+    height: 15px;
+    margin-left: -7px;
+	border-radius: 20px !important;
+	border: 0px !important;
+	background-color: #2196f3 ! important;
+}
+.custom-slider .x-icon-el {
+	color: transparent !important;
+}
+.custom-slider .x-track-el{
+	border-radius: 10px !important;
+	background-color: #2196f3 !important;
+	height: 4px !important;
+}
+
+.custom-slider .x-fill-el{
+	background-color: transparent !important;
+	border: 0px !important;
+}
+fine slider*/
+.cbaCssRigaAlta35 {
+    height: 35px !important;
+}
+.cbaBorderPanel .x-panel-body-el{
+	border: 1px solid #2f5f8f !important;
+}
+
+.cbaBorderPnlCompilatore .x-managed-borders {
+	border-top-width: 1 !important,
+}
+
+.cbaCssBordoErrore .x-panel{
+    border: 1px solid red !important;
+}
+
+.tableBorder {
+    border-collapse: collapse;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1217 */
+.tableBorder td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 5px;
+}
+
+.cbaCssBtnFunzione-special{
+    /*pulsanti funzione css speciali (arancio)*/
+    color: -webkit-linear-gradient(top, #ffa142 0, #ff7b0e 100%) !important;
+    color: -moz-linear-gradient(top, #ffa142 0, #ff7b0e 100%) !important;
+    color: -o-linear-gradient(top, #ffa142 0, #ff7b0e 100%) !important;
+    color: -ms-linear-gradient(top, #ffa142 0, #ff7b0e 100%) !important;
+    color: linear-gradient(top, #ffa142 0, #ff7b0e 100%) !important;
+    -webkit-border-radius: 3px!important;
+    -moz-border-radius: 3px!important;
+    -ms-border-radius: 3px!important;
+    -o-border-radius: 3px!important;
+    border-radius: 3px!important;
+    border-bottom-color: #ae5200 !important;
+    border-bottom-width: 2px!important;
+}
+
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/_svg.scss:495 */
+.icon-chain {
+    background-image: url("images/generali/chain.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/_svg.scss:499 */
+.icon-chain-child {
+    background-image: url("images/generali/chain-child.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.testataAnnullata{
+	color: #ee3442 !important;
+    text-decoration: line-through !important;
+}
+
+.testataBloccata{
+	color: #ee3442 !important;
+}
+.noEvent{
+	pointer-events: none !important
+}
+.no-border .x-form-fieldset-body-el{
+	border: 0px  !important;
+}
+.cbaCssDoloreSelezioneNRS{
+    background-image: url("images/skval/SelezioneNrs.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.cbaCssDoloreSelezioneVRS {
+    background-image: url("images/skval/selezioneVrs.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/*toast*/
+.x-sheet {
+    border-color: transparent !important;
+    border-style: solid;
+}
+.x-toast .x-toast-body-el {
+    color: #404040 !important;
+    background-color: #f6f6f6 !important;
+    line-height: 56px !important;
+}
+
+.no-cell-focused-border .x-grid-item-focused .x-grid-cell-inner:before {
+    border: none !important;
+}
+
+.icon-like-css {
+    background-image: url("images/generali/like.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.icon-dislike-css {
+    background-image: url("images/generali/dislike.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.icon-denied-css {
+    background-image: url("images/generali/denied.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.icon-checked {
+    background-image: url("images/generali/checked.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.icon-error{
+    background-image: url("images/generali/error.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+/*blocco pagina*/
+.cbaCssLockTestata,
+.cbaCssLockTestata-annullata,
+.cbaCssLockTestata-unlocked,
+.cbaCssLockTestata-unlocked-warning,
+.cbaCssLockTestata-warning,
+.cbaCssWarningHours,
+.cbaCssLockTestata-annullata-warning {
+    /*classi per blocchi modifica*/
+    /*gen icone blocchi*/
+    background-repeat: no-repeat !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:204 */
+.cbaCssLockTestata {
+    background-image: url("images/generali/css-lock.svg") !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:208 */
+.cbaCssPnlCompilatore-annullato .x-panel-body {
+    background: #c31317 !important;
+    border-radius: 5px !important;
+    border: 1px solid #6f0003 !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:214 */
+.cbaCssLockTestata-annullata {
+    background-image: url("images/generali/css-lock-annullato.svg") !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:217 */
+.cbaCssLockTestata-annullata-testo {
+    text-decoration: line-through !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:221 */
+.cbaCssLockTestata-unlocked {
+    background-image: url("images/generali/css-unlock.svg") !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:224 */
+.cbaCssLockTestata-unlocked-warning {
+    background-image: url("images/generali/css-unlock-warning.svg") !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:227 */
+.cbaCssLockTestata-warning {
+    background-image: url("images/generali/css-lock-warning.svg") !important;
+}
+/*Fine blocco pagina*/
+.no-borderPadding .x-form-fieldset-body-el{
+	border: 0px  !important;
+	padding: 0px !important;
+}
+.cbaCssLabelTitolo {/*usato in consegne*/
+    font-size: 18px !important;
+    font-family: 'Oswald' !important; 
+	color: #2f5f8f !important;
+	font-weight: bold !important;
+}
+.headerFormSchede{
+	border-bottom: 1px solid #5fa2dd !important;
+}
+
+.headerFormCosegne{
+	border-bottom: 0.1px solid rgba(173, 190, 206, 0.31) !important;
+}
+
+.css-area-modificabile {
+    border: 3px solid #86c567 !important;
+}
+.formConsegne {
+	border: 1px solid rgb(95, 162, 221) !important;
+}
+/*tolto il grassetto dal field
+.x-field .x-label-el{ 
+	font: 1rem/1.23077em helvetica, arial, sans-serif !important;
+}*/
+
+/* fluid layout */
+.x-horizontal-fluid {
+    display: -webkit-flex !important;
+    display: flex !important;
+    -webkit-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+}
+
+.x-layout-box.x-horizontal-fluid {
+    -webkit-box-orient: horizontal !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important
+}
+
+.x-layout-box.x-horizontal-fluid > .x-layout-box-item.x-flexed {
+    min-width: 0 !important
+}
+
+.x-webkit .x-layout-box.x-horizontal-fluid > .x-layout-box-item.x-flexed {
+    width: 0 !important
+} 
+/* fine fluid layout */
+
+/* button floating*/
+.x-button.x-button-pathmenu {
+    background: white;/*background color of the menu item button*/
+    /*border: 3px solid #fff;background color of the border of all buttons*/
+	border: 1px solid #cbd7e3 !important;
+    border-radius: 100% !important;
+    /*padding: 10px !important;*/
+    -webkit-box-shadow: 0px 0px 2px #999 !important;
+}
+.x-button.x-button-pathmenu.menubutton  .x-inner-el{
+	background: transparent !important;
+	border: 0px !important;
+}
+.x-button.x-button-pathmenu  .x-button-icon {
+    background-color: inherit;/*color of the iconCls square part. should inherit from parent. do not play with this one*/
+	background-size: contain;/*have the icon fit the square part of iconCls. do not play with this one*/
+}
+.x-button-pathmenu.x-button .x-inner-el{
+	border: none !important;
+	background: transparent !important;
+}
+.x-button.x-button-pathmenu.x-button-active,
+.x-button.x-button-pathmenu.x-button-pressing {
+    background: #5599ff !important;/*background color of the menu item button for the moment it is clicked*/
+}
+.x-button.x-button-pathmenu.menubutton {
+    background: #2F5F8F !important;/*background color of the main menu button*/
+    border: none !important;
+	-webkit-transition: all 300ms !important;
+}
+.cbaButtonElimina{
+    background: #c62828 !important;/*background color of the main menu button*/
+    border: none !important;
+	-webkit-transition: all 300ms !important;
+}
+.cbaButtonVerde{
+    background: #88C575 !important;/*background color of the main menu button*/
+    border: none !important;
+	-webkit-transition: all 300ms !important;
+	color: white !important;
+}
+.cbaButtonVerde.x-button .x-text-el{
+	overflow: visible !important;
+}
+.cbaButtonVerde.x-button.x-has-text .x-text-el{
+	display: inline-flex !important;
+}
+.cbaButtonVerde.x-button{
+	color: white !important;
+}
+
+.x-button.x-button-pathmenu.menubutton .x-icon-mask{
+	-webkit-mask-image:none !important;;
+}
+.x-button.x-button-pathmenu.menubutton.open{
+	box-shadow: 0px 0px 7px #555 !important;
+	transform: translateY(-1px) !important;
+}
+.x-button.x-button-pathmenu.menuitembutton.open {
+    opacity: 1 !important;
+}
+.x-button.x-button-pathmenu.menuitembutton.close {
+    opacity: 0 !important;
+}
+.x-button.x-button-pathmenu.menuitembutton  .x-inner-el{
+	background: transparent !important;
+	border: 0px !important;
+	
+}
+.x-button.x-button-pathmenu.menuitembutton {
+    -webkit-transition-duration: 300ms !important;
+    -webkit-transition-property: opacity, left, bottom, -webkit-transform !important;
+    -webkit-transition-timing-function: ease-out !important;
+}
+/*fine button floating*/
+
+/*textfield solo bordo sotto*/
+.cbaTextArea .x-input-wrap-el{
+	border: 1px solid #e1e1e1 !important;
+}
+/*fine textfield*/
+
+.cbaButton {
+	background: #5fa2dd !important;
+	color: white !important;
+}
+.cbaMenuIcon {
+	padding: 5px;
+	border: 2px solid #8ec3f1;
+	border-radius: 28px;
+}
+
+.cbaUserIcon {
+	background-image: url("images/default_user_pic.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.cbaCssLabel,
+.cbaCssLabel .x-form-cb-label,
+.cbaCssLabelAnagrafica {
+    color: #2f5f8f !important;
+}
+
+.icon-info {
+    background-image: url("images/generali/info.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    height: 16px;
+    width: 16px;
+}
+
+.cbaCssLabelWhite {
+	color: white !important;
+	font-weight: 800 !important;
+}
+.cbaLabelTitolo{
+	color: #2f5f8f;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cbaLabelStrong{
+	font-weight: 600 !important;
+}
+
+.filter-white{
+	background-image: url("images/generali/filter-white.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    height: 25px;
+    width: 25px;
+}
+/*pulsanti*/
+.box-confirm-css,
+.box-annulla-css{
+    /*sezione icone buttons gen css*/
+    width: 35px!important;
+    height: 35px!important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.box-confirm-css {
+    background-image: url("images/btnFunzione/check-mark.svg");
+}
+.box-annulla-css {
+    background-image: url("images/btnFunzione/update-arrow.svg");
+}
+
+.cbaBtnFunzione-mini .x-inner-el{
+    /*classi per pulsanti minimizzati (solo icone)*/
+    background-color: transparent !important;
+    border: 0px !important;
+    overflow: hidden !important;
+	background-image: -webkit-linear-gradient(top, transparent, transparent 50%, transparent 51%,transparent) !important;
+    display: block;
+}
+
+.cbaBackHomeIcon {
+	background-image: url("images/house.svg");
+}
+
+.no-cell-focused-border .x-grid-item-focused .x-grid-cell-inner:before {
+    border: none !important;
+}
+
+.cbaConsegneIcon,
+.cbaWarningIcon,
+.cbaAgendaIcon,
+.cbaNotificaIcon ,
+.cbaHomeIcon{
+    width: 35px!important;
+    height: 35px!important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+	-webkit-filter: hue-rotate(365deg) saturate(0) brightness(179%) opacity(100%);
+    -moz-filter: hue-rotate(365deg) saturate(0) brightness(179%) opacity(100%);
+    filter: hue-rotate(365deg) saturate(0) brightness(179%) opacity(100%);
+}
+
+.loadLabel {
+	color: #5fa2dd !important;
+	font-weight: bold !important;
+	font-size: 20px !important;
+}
+
+.cbaConsegneIcon {
+	background-image: url("images/icone-portlet/consegne.svg");
+}
+.cbaWarningIcon {
+	background-image: url("images/icone-portlet/warning.svg");
+}
+.cbaAgendaIcon {
+	background-image: url("images/agenda.svg");
+}
+.cbaNotificaIcon {
+	background-image: url("images/notification.svg");
+}
+.cbaHomeIcon {
+	background-image: url("images/home.svg");
+}
+.cbaDiariIcon {
+	background-image: url("images/popup/diari.svg") !important;
+}
+
+.cbaAttivitaIcon {
+	background-image: url("images/popup/diari.svg") !important;
+}
+
+.cbaTerapieIcon {
+	background-image: url("images/popup/diari.svg") !important;
+}
+/*tabPanel home*
+.cbaTab .x-tabbar{
+	padding: 0 !important;
+	color: white !important;
+	background-color: #5fa2dd !important;
+	border: 0px !important;
+	-webkit-tap-highlight-color: #bbdefb !important;
+}
+.cbaTab .x-big .x-tabbar-body-el {
+	padding: 0px!important;
+    padding-top: 5px !important;
+}
+.cbaTab .x-button{
+	font-size: 11px !important;
+	flex: 1 !important;
+}
+.cbaTab .x-tab.x-active .x-inner-el{
+	background-color: transparent !important;
+}
+.cbaTab .x-tab.x-active {
+    color: #fff !important;
+}
+.cbaTab .x-tab.x-active{
+	color: #c7def3!important;
+    border-bottom: 4px solid yellow !important;
+}*/
+
+.x-badge-el{
+	text-align: center !important;
+	left: 60% !important;
+	border-color: yellow !important;
+    min-width: 2em !important;
+    font: 1em/1.23em helvetica, arial, sans-serif !important;
+    top: -0.2em !important;
+    max-width: 10% !important;
+    color: black !important;
+    background-image: -webkit-linear-gradient(top, #ffff00, rgba(249, 249, 84, 0.98) 3%, rgba(253, 253, 143, 0.85))!important;
+    background-image: -moz-linear-gradient(top, #ffff00, rgba(249, 249, 84, 0.98) 3%, rgba(253, 253, 143, 0.85))!important;
+    background-image: -o-linear-gradient(top, #ffff00, rgba(249, 249, 84, 0.98) 3%, rgba(253, 253, 143, 0.85))!important;
+    background-image: -ms-linear-gradient(top, #ffff00, rgba(249, 249, 84, 0.98) 3%, rgba(253, 253, 143, 0.85))!important;
+    -webkit-border-radius: 10em !important;
+    -moz-border-radius: 10em !important;
+    -ms-border-radius: 10em !important;
+    -o-border-radius: 10em !important;
+    border-radius: 10em !important;
+	
+	z-index: 2 !important;
+    position: absolute !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+	
+	font-size: 1em !important;
+    line-height: 1.6em !important;
+    padding: 0.1em 0.3em !important;
+}
+/*fine tabPanel*/
+
+/*tabPanel triton
+.cbaTabParam .x-tabbar{
+	padding: 0 !important;
+	color: #e1e1e1 !important;
+	background-color: transparent !important;
+	border: 0px !important;
+}
+.cbaTabParam .x-tabbar {
+    background-color: white !important;
+    background-image: none;
+    border-color: white !important;
+}
+.cbaTabParam .x-toolbar-inner {
+	padding: 0px!important;
+    padding-top: 5px !important;
+}
+.cbaTabParam .x-button-label{
+	font-size: 16px !important;
+}
+.cbaTabParam .x-tabbar-body-el {
+    padding: 0 !important;
+}
+.cbaTabParam .x-tab {
+    color: rgba(127, 181, 228, 0.45);
+    font: 400 13px/16px 'Open Sans', 'Helvetica Neue', helvetica, arial, sans-serif;
+}
+.cbaTabParam .x-tab.x-tab-active{
+	color: #5fa2dd !important;
+    background-image: none !important;
+    border-bottom: 4px solid #5fa2dd !important;
+}
+
+Fine tabpanel*/
+
+/*Tabpanel material*/
+.cbaTabParam .x-tabbar{
+	background-color: transparent !important;
+}
+.cbaTabParam .x-toolbar{
+	box-shadow: none !important;
+}
+.cbaTabParam .x-tab.x-active{
+	color: black !important;
+}
+.cbaTabParam .x-tab.x-active .x-inner-el {
+	background-color: transparent !important;
+}
+.cbaTabParam .x-tab .x-inner-el {
+	background-color: transparent !important;
+	color: black !important;
+}
+/*fine*/
+.cbaCssLockPng {
+    background-image: url("images/generali/css-lock.svg") !important;
+    width: 16px;
+    height: 16px;
+}
+
+.cbaPanelCollapsed  .x-panelheader{
+	background-color: transparent !important;
+	border-top: 1px solid #e1e1e1 !important;
+}
+.cbaPanelCollapsed  .x-paneltool .x-icon-el{
+	color: #5fa2dd !important;
+}
+.cbaPanelCollapsed .x-paneltitle{
+	color: #5fa2dd !important;
+}
+/*pulsanti fascicolo*/
+
+.buttonHomeLabel {
+	color: #2f5f8f !important;
+	font: bold 20px helvetica, sans-serif !important;
+}
+.default-icons-css-32 {
+    background-repeat: no-repeat !important;
+    background-position: center center !important; 
+    background-size: contain !important;
+    
+}
+
+.prt-alimentazione {
+    background-image: url("images/icone-portlet/alimentazione.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.prt-diarioParametri {
+    background-image: url("images/icone-portlet/diarioParametri.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.prt-skval {
+    background-image: url("images/icone-portlet/schedeValutazione.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.icon-peg {
+    background-image: url("images/popup/nutrizioniEnterali.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.icon-stomia {
+    background-image: url("images/popup/stomia.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.icon-cartella-test1 {
+    background-image: url("images/skval/1.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* F:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1613 */
+.icon-cartella-test2 {
+    background-image: url("images/skval/2.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* F:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1613 */
+.icon-cartella-test3 {
+    background-image: url("images/skval/3.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* F:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1613 */
+.icon-cartella-test4 {
+    background-image: url("images/skval/4.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* F:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1613 */
+.icon-cartella-test5 {
+    background-image: url("images/skval/5.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* F:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1613 */
+.icon-cartella-test6 {
+    background-image: url("images/skval/6.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* F:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1613 */
+.icon-cartella-test7 {
+    background-image: url("images/skval/7.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* F:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1613 */
+.icon-cartella-test8 {
+    background-image: url("images/skval/8.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* F:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1613 */
+.icon-cartella-test9 {
+    background-image: url("images/skval/9.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* F:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1613 */
+.icon-cartella-test10 {
+    background-image: url("images/skval/10.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* F:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1613 */
+.icon-cartella-test11 {
+    background-image: url("images/skval/11.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* F:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1613 */
+.icon-cartella-test12 {
+    background-image: url("images/skval/12.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* F:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1613 */
+.icon-cartella-test13 {
+    background-image: url("images/skval/13.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* F:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1613 */
+.icon-cartella-test14 {
+    background-image: url("images/skval/14.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* F:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1613 */
+.icon-cartella-test15 {
+    background-image: url("images/skval/15.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* F:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1613 */
+.icon-cartella-test16 {
+    background-image: url("images/skval/16.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone1 {
+    background-image: url("images/bottoniCss/Bottone1.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone2 {
+    background-image: url("images/bottoniCss/Bottone2.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone3 {
+    background-image: url("images/bottoniCss/Bottone3.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone4 {
+    background-image: url("images/bottoniCss/Bottone4.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone5 {
+    background-image: url("images/bottoniCss/Bottone5.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone6 {
+    background-image: url("images/bottoniCss/Bottone6.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone7 {
+    background-image: url("images/bottoniCss/Bottone7.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone8 {
+    background-image: url("images/bottoniCss/Bottone8.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone9 {
+    background-image: url("images/bottoniCss/Bottone9.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone10 {
+    background-image: url("images/bottoniCss/Bottone10.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone11 {
+    background-image: url("images/bottoniCss/Bottone11.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone12 {
+    background-image: url("images/bottoniCss/Bottone12.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone13 {
+    background-image: url("images/bottoniCss/Bottone13.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone14 {
+    background-image: url("images/bottoniCss/Bottone14.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone15 {
+    background-image: url("images/bottoniCss/Bottone15.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone16 {
+    background-image: url("images/bottoniCss/Bottone16.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone17 {
+    background-image: url("images/bottoniCss/Bottone17.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone18 {
+    background-image: url("images/bottoniCss/Bottone18.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone19 {
+    background-image: url("images/bottoniCss/Bottone19.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone20 {
+    background-image: url("images/bottoniCss/Bottone20.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone21 {
+    background-image: url("images/bottoniCss/Bottone21.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone22 {
+    background-image: url("images/bottoniCss/Bottone22.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone23 {
+    background-image: url("images/bottoniCss/Bottone23.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone24 {
+    background-image: url("images/bottoniCss/Bottone24.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone25 {
+    background-image: url("images/bottoniCss/Bottone25.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone26 {
+    background-image: url("images/bottoniCss/Bottone26.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone27 {
+    background-image: url("images/bottoniCss/Bottone27.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone28 {
+    background-image: url("images/bottoniCss/Bottone28.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone29 {
+    background-image: url("images/bottoniCss/Bottone29.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone30 {
+    background-image: url("images/bottoniCss/Bottone30.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone31 {
+    background-image: url("images/bottoniCss/Bottone31.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone32 {
+    background-image: url("images/bottoniCss/Bottone32.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone33 {
+    background-image: url("images/bottoniCss/Bottone33.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone34 {
+    background-image: url("images/bottoniCss/Bottone34.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone35 {
+    background-image: url("images/bottoniCss/Bottone35.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone36 {
+    background-image: url("images/bottoniCss/Bottone36.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone37 {
+    background-image: url("images/bottoniCss/Bottone37.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone38 {
+    background-image: url("images/bottoniCss/Bottone38.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone39 {
+    background-image: url("images/bottoniCss/Bottone39.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone40 {
+    background-image: url("images/bottoniCss/Bottone40.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone41 {
+    background-image: url("images/bottoniCss/Bottone41.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone42 {
+    background-image: url("images/bottoniCss/Bottone42.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone43 {
+    background-image: url("images/bottoniCss/Bottone43.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone44 {
+    background-image: url("images/bottoniCss/Bottone44.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone45 {
+    background-image: url("images/bottoniCss/Bottone45.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1402 */
+.icon-cartella-bottone46 {
+    background-image: url("images/bottoniCss/Bottone46.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/*Fine pulsanti fascicolo*/
+/*Inizio colori*/
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1801 */
+.css-nero {
+    -webkit-filter: hue-rotate(0deg) saturate(0) brightness(56%) opacity(100%);
+    -moz-filter: hue-rotate(0deg) saturate(0) brightness(56%) opacity(100%);
+    filter: hue-rotate(0deg) saturate(0) brightness(56%) opacity(100%);
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1804 */
+.css-color-nero {
+    color: #030104;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1808 */
+.css-bg-color-nero {
+    background-color: #030104;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1801 */
+.css-giallo {
+    -webkit-filter: hue-rotate(201deg) saturate(3) brightness(135%) opacity(100%);
+    -moz-filter: hue-rotate(201deg) saturate(3) brightness(135%) opacity(100%);
+    filter: hue-rotate(201deg) saturate(3) brightness(135%) opacity(100%);
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1804 */
+.css-color-giallo {
+    color: #ffea19;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1808 */
+.css-bg-color-giallo {
+    background-color: #ffea19;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1801 */
+.css-viola {
+    -webkit-filter: hue-rotate(76deg) saturate(5) brightness(84%) opacity(100%);
+    -moz-filter: hue-rotate(76deg) saturate(5) brightness(84%) opacity(100%);
+    filter: hue-rotate(76deg) saturate(5) brightness(84%) opacity(100%);
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1804 */
+.css-color-viola {
+    color: #813aa6;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1808 */
+.css-bg-color-viola {
+    background-color: #813aa6;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1801 */
+.css-verdescuro {
+    -webkit-filter: hue-rotate(242deg) saturate(1) brightness(98%) opacity(100%);
+    -moz-filter: hue-rotate(242deg) saturate(1) brightness(98%) opacity(100%);
+    filter: hue-rotate(242deg) saturate(1) brightness(98%) opacity(100%);
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1804 */
+.css-color-verdescuro {
+    color: #005e00;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1808 */
+.css-bg-color-verdescuro {
+    background-color: #005e00;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1801 */
+.css-arancio {
+    -webkit-filter: hue-rotate(202deg) saturate(6) brightness(100%) opacity(100%);
+    -moz-filter: hue-rotate(202deg) saturate(6) brightness(100%) opacity(100%);
+    filter: hue-rotate(202deg) saturate(6) brightness(100%) opacity(100%);
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1804 */
+.css-color-arancio {
+    color: #f9aa00;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1808 */
+.css-bg-color-arancio {
+    background-color: #f9aa00;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1801 */
+.css-azzurro {
+    -webkit-filter: hue-rotate(0deg) saturate(3) brightness(100%) opacity(100%);
+    -moz-filter: hue-rotate(0deg) saturate(3) brightness(100%) opacity(100%);
+    filter: hue-rotate(0deg) saturate(3) brightness(100%) opacity(100%);
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1804 */
+.css-color-azzurro {
+    color: #5fa2dd;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1808 */
+.css-bg-color-azzurro {
+    background-color: #5fa2dd;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1801 */
+.css-blu {
+    -webkit-filter: hue-rotate(0deg) saturate(1) brightness(75%) opacity(100%);
+    -moz-filter: hue-rotate(0deg) saturate(1) brightness(75%) opacity(100%);
+    filter: hue-rotate(0deg) saturate(1) brightness(75%) opacity(100%);
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1804 */
+.css-color-blu {
+    color: #2f5f8f;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1808 */
+.css-bg-color-blu {
+    background-color: #2f5f8f;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1801 */
+.css-rosso {
+    -webkit-filter: hue-rotate(141deg) saturate(4) brightness(95%) opacity(100%);
+    -moz-filter: hue-rotate(141deg) saturate(4) brightness(95%) opacity(100%);
+    filter: hue-rotate(141deg) saturate(4) brightness(95%) opacity(100%);
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1804 */
+.css-color-rosso {
+    color: #ee3442;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1808 */
+.css-bg-color-rosso {
+    background-color: #ee3442;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1801 */
+.css-verde {
+    -webkit-filter: hue-rotate(242deg) saturate(2) brightness(124%) opacity(100%);
+    -moz-filter: hue-rotate(242deg) saturate(2) brightness(124%) opacity(100%);
+    filter: hue-rotate(242deg) saturate(2) brightness(124%) opacity(100%);
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1804 */
+.css-color-verde {
+    color: #86c567;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1808 */
+.css-bg-color-verde {
+    background-color: #86c567;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1801 */
+.css-bianco {
+    -webkit-filter: hue-rotate(365deg) saturate(0) brightness(179%) opacity(100%);
+    -moz-filter: hue-rotate(365deg) saturate(0) brightness(179%) opacity(100%);
+    filter: hue-rotate(365deg) saturate(0) brightness(179%) opacity(100%);
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1804 */
+.css-color-bianco {
+    color: white;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1808 */
+.css-bg-color-bianco {
+    background-color: white;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1801 */
+.css-grigio {
+    -webkit-filter: hue-rotate(37deg) saturate(0) brightness(90%) opacity(30%);
+    -moz-filter: hue-rotate(37deg) saturate(0) brightness(90%) opacity(30%);
+    filter: hue-rotate(37deg) saturate(0) brightness(90%) opacity(30%);
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1804 */
+.css-color-grigio {
+    color: gray;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1808 */
+.css-bg-color-grigio {
+    background-color: gray;
+}
+/*Fine colori*/
+.icons-css-90 {/*ICONE PORTLET*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 90px;
+    width: 90px;
+
+}
+
+/*icone portlet*/
+.icon-cartella-entrata {
+    background-image: url("images/popup/cartellaEntrata.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1594 */
+.icon-bisogni-ingresso {
+    background-image: url("images/popup/bisogniIngresso.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1598 */
+.icon-anamnesi-patologica {
+    background-image: url("images/popup/anamnesiPatologica.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1602 */
+.icon-pato-prob {
+    background-image: url("images/popup/anamnesiPatologica.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1606 */
+.icon-anamnesi-familiare {
+    background-image: url("images/popup/anamnesiFamiliare.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1610 */
+.icon-anamnesi-fisiologica {
+    background-image: url("images/popup/anamnesiFisiologica.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1614 */
+.icon-anamnesi-inf {
+    background-image: url("images/popup/anamnesiInfermieristica.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1618 */
+.icon-anamnesi-sociale {
+    background-image: url("images/popup/anamnesiSociale.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1622 */
+.icon-esame-obiettivo {
+    background-image: url("images/popup/esameObiettivo.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1626 */
+.icon-esame-neuro {
+    background-image: url("images/popup/esameNeuro.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1630 */
+.icon-biografica {
+    background-image: url("images/popup/biografica.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1634 */
+.icon-alimentazione {
+    background-image: url("images/popup/alimentazione.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1638 */
+.icon-bilancio {
+    background-image: url("images/popup/bilancioIdrico.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1642 */
+.icon-cadute {
+    background-image: url("images/popup/cadute.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1646 */
+.icon-accertamenti {
+    background-image: url("images/popup/accertamenti.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1650 */
+.icon-lesioni {
+    background-image: url("images/popup/lesioni.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1654 */
+.icon-eventiavversi {
+    background-image: url("images/popup/eventiAvversi.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1658 */
+.icon-contenzioni {
+    background-image: url("images/popup/contenzioni.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1662 */
+.icon-catetere {
+    background-image: url("images/popup/catetere.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1666 */
+.icon-disfagia {
+    background-image: url("images/popup/disfagia.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1670 */
+.icon-ricetta {
+    background-image: url("images/popup/ricetta.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1674 */
+.icon-grafici {
+    background-image: url("images/popup/grafici.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1678 */
+.icon-infezioni {
+    background-image: url("images/popup/infezioni.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1682 */
+.icon-storico {
+    background-image: url("images/popup/storico.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.icon-diario {
+    background-image: url("images/popup/diari.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1093 */
+.icon-parametri {
+    background-image: url("images/popup/parametri.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.icon-progetti {
+    background-image: url("images/popup/anamnesiSociale.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/*icona filtro*/
+.cba-css-button-light {
+    background-color: white !important;
+    -webkit-border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    -ms-border-radius: 3px !important;
+    -o-border-radius: 3px !important;
+    border-radius: 3px !important;
+    border-bottom-color: #2f5f8f;
+    border-bottom-width: 2px!important;
+    padding: 3px 3px 3px 3px;
+}
+.icon-filter-off {
+    background-image: url("images/generali/portlet-filter-base.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/*cbaMultiple*/
+.disable-select-text-highlight {
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+.choice-round-unchecked,
+.choice-round-unchecked-border2 {
+    border-radius: 50px;
+    color: #5fa2dd;
+	text-align: center !important;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/_extra.scss:1228 */
+.choice-round-unchecked {
+    border: 3px solid #5fa2dd !important;
+    padding-top: 6px;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/_extra.scss:1234 */
+.choice-round-unchecked-border2 {
+    border: 2px solid #5fa2dd !important;
+    padding-top: 5px;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/_extra.scss:1240 */
+.choice-checked {
+    background-color: #5fa2dd;
+    color: white;
+	text-align: center !important;
+    box-shadow: 2px 2px 2px grey;
+    -moz-box-shadow: 2px 2px 2px grey;
+    -webkit-box-shadow: 2px 2px 2px grey;
+}
+.choice-round-unchecked-rosso {
+    border: 3px solid #ee3442;
+    border-radius: 50px;
+    color: #ee3442;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 7px;
+    cursor: pointer;
+}
+.choice-round-unchecked-css,
+.choice-round-unchecked-css-border2 {
+    border-radius: 50px;
+    color: #5fa2dd;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:682 */
+.choice-round-unchecked-css {
+    border: 3px solid #5fa2dd !important;
+    padding-top: 5px;
+    padding-left: 7px;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:688 */
+.choice-round-unchecked-css-border2 {
+    border: 2px solid #5fa2dd !important;
+    padding-top: 5px;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:694 */
+.choice-checked-css {
+    background-color: #5fa2dd;
+    color: white;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:710 */
+.choice-checked-rosso {
+    background-color: #ee3442;
+    color: white;
+}
+.choice-checked-verde {
+    background-color: #86c567;
+    border: 3px solid #86c567 !important;
+    color: white;
+}
+.multiple-choice-css-attivita {
+    font-size: 13px;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+}
+/*fine multiplechoice*/
+
+/*filtro testata*/
+.icon-filter-off {
+    background-image: url("images/generali/portlet-filter-base.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1060 */
+.icon-filter-on {
+    background-image: url("images/generali/portlet-filter-green.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.cbaCssPunteggioRisposta {
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0px;
+    margin-top: -1px;
+    border-radius: 9px 9px 6px 6px;
+    background-color: #5fa2dd;
+}
+
+.cbaCssRispostaSelezionata {
+    background: #fff;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #fff 0%, #c0defc 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fff 0%, #c0defc 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fff 0%, #c0defc 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c0defc',GradientType=0 );
+    /* IE6-9 */
+    border-width: 2px !important;
+    border-style: solid !important;
+    border-color: #5fa2dd !important;
+}
+
+/*icone parametri*/
+.icon-pressione {
+    background-image: url("images/warning/pressione.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.icon-freqCardiaca {
+    background-image: url("images/warning/freqCard.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.icon-respiro {
+    background-image: url("images/warning/respiro.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.icon-temperatura {
+    background-image: url("images/warning/temp.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.icon-glicemia {
+    background-image: url("images/warning/glicemia.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.icon-peso {
+    background-image: url("images/warning/peso.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.icon-altezza {
+    background-image: url("images/warning/altezza.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.icon-diuresi {
+    background-image: url("images/warning/diuresi.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.icon-o2 {
+    background-image: url("images/warning/pressione.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.icon-alvo {
+    background-image: url("images/parametri/alvo.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.icon-sonno {
+    background-image: url("images/parametri/sonno.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.icon-mobilita {
+    background-image: url("images/popup/bisogniIngresso.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.icon-diari {
+    background-image: url("images/popup/diari.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.agenda-si {
+    background-image: url("images/btnFunzione/agenda-si.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* c:/cba/sipcar2/sipcar-theme/packages/local/my-classic-theme/sass/var/Component.scss:1565 */
+.agenda-no {
+    background-image: url("images/btnFunzione/agenda-no.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.cbaLabelCheck .x-field.x-box-labeled > * > * > * > .x-box-label-el {
+    margin-left: 4px !important;
+    vertical-align: bottom !important;
+    display: inline !important;
+}
+
+.icon-pencil {
+    background-image: url("images/generali/pencil.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.icon-piu {
+    background-image: url("images/generali/piu.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.icon-elimina {
+    background-image: url("images/generali/elimina.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.ball {
+  background-color: rgba(0,0,0,0);
+  border:5px solid rgba(0,183,229,0.9);
+	opacity:.9;
+	border-top:5px solid rgba(0,0,0,0);
+	border-left:5px solid rgba(0,0,0,0);
+	border-radius:50px;
+	box-shadow: 0 0 35px #2187e7;
+	width:50px;
+	height:50px;
+	margin:0 auto;
+	-moz-animation:spin .5s infinite linear;
+	-webkit-animation:spin .5s infinite linear;
+}
+.ball1 {
+	background-color: rgba(0,0,0,0);
+	border:5px solid rgba(0,183,229,0.9);
+	opacity:.9;
+	border-top:5px solid rgba(0,0,0,0);
+	border-left:5px solid rgba(0,0,0,0);
+	border-radius:50px;
+	box-shadow: 0 0 15px #2187e7; 
+	width:30px;
+	height:30px;
+	margin:0 auto;
+	position:relative;
+	top:-50px;
+	-moz-animation:spinoff .5s infinite linear;
+	-webkit-animation:spinoff .5s infinite linear;
+}
+@-moz-keyframes spin {
+	0% { -moz-transform:rotate(0deg); }
+	100% { -moz-transform:rotate(360deg); }
+}
+@-moz-keyframes spinoff {
+	0% { -moz-transform:rotate(0deg); }
+	100% { -moz-transform:rotate(-360deg); }
+}
+@-webkit-keyframes spin {
+	0% { -webkit-transform:rotate(0deg); }
+	100% { -webkit-transform:rotate(360deg); }
+}
+@-webkit-keyframes spinoff {
+	0% { -webkit-transform:rotate(0deg); }
+	100% { -webkit-transform:rotate(-360deg); }
+}
+
+/* css for spin eg. 2 */
+
+.circle {
+	background-color: rgba(0,0,0,0);
+	border:5px solid rgba(0,183,229,0.9);
+	opacity:.9;
+	border-right:5px solid rgba(0,0,0,0);
+	border-left:5px solid rgba(0,0,0,0);
+	border-radius:50px;
+	box-shadow: 0 0 35px #2187e7;
+	width:50px;
+	height:50px;
+	margin:0 auto;
+	-moz-animation:spinPulse 1s infinite ease-in-out;
+	-webkit-animation:spinPulse 1s infinite linear;
+}
+.circle1 {
+	background-color: rgba(0,0,0,0);
+	border:5px solid rgba(0,183,229,0.9);
+	opacity:.9;
+	border-left:5px solid rgba(0,0,0,0);
+	border-right:5px solid rgba(0,0,0,0);
+	border-radius:50px;
+	box-shadow: 0 0 15px #2187e7; 
+	width:30px;
+	height:30px;
+	margin:0 auto;
+	position:relative;
+	top:-50px;
+	-moz-animation:spinoffPulse 1s infinite linear;
+	-webkit-animation:spinoffPulse 1s infinite linear;
+}
+@-moz-keyframes spinPulse {
+	0% { -moz-transform:rotate(160deg); opacity:0; box-shadow:0 0 1px #2187e7;}
+	50% { -moz-transform:rotate(145deg); opacity:1; }
+	100% { -moz-transform:rotate(-320deg); opacity:0; }
+}
+@-moz-keyframes spinoffPulse {
+	0% { -moz-transform:rotate(0deg); }
+	100% { -moz-transform:rotate(360deg);  }
+}
+@-webkit-keyframes spinPulse {
+	0% { -webkit-transform:rotate(160deg); opacity:0; box-shadow:0 0 1px #2187e7; }
+	50% { -webkit-transform:rotate(145deg); opacity:1;}
+	100% { -webkit-transform:rotate(-320deg); opacity:0; }
+}
+@-webkit-keyframes spinoffPulse {
+	0% { -webkit-transform:rotate(0deg); }
+	100% { -webkit-transform:rotate(360deg); }
+}

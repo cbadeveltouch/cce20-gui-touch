@@ -1,0 +1,67 @@
+/*
+ *  This file can be used to set variables and supply global styling.  View specific 
+ *  styling should be located the view's corresponding scss file.
+ */
+$enable-font-awesome: dynamic(true);
+.x-big .x-tab.x-has-text .x-inner-el{
+	padding: 10px 4px !important;
+}	
+.x-mask .x-mask-inner{
+	background: transparent !important;
+}
+
+/*ovveride boxLabel*/
+.x-field.x-body-align-end > * > .x-body-el{
+	align-items: flex-start !important;
+}
+/*override toolbar*/
+.x-toolbar{
+	background-color: #fafafa !important;
+	box-shadow: none !important;
+}
+.x-big .x-toolbar-body-el{
+	padding: none !important;
+}
+.x-big .x-toolbar{
+	font-size: 16px !important;
+}
+
+/*override list selection*/
+.x-listswiper-shadow{
+	box-shadow: none !important;
+	border-bottom: none /*0.5px solid #2196f3*/ !important;
+}
+
+.no-cell-focused-border .x-grid-item-focused .x-grid-cell-inner:before {
+    border: none !important;
+}
+
+.x-badge-el{
+	text-align: center !important;
+	left: 60% !important;
+	border-color: yellow !important;
+    min-width: 2em !important;
+    font: 1em/1.23em helvetica, arial, sans-serif !important;
+    top: -0.2em !important;
+    max-width: 10% !important;
+    color: black !important;
+    background-image: -webkit-linear-gradient(top, #ffff00, rgba(249, 249, 84, 0.98) 3%, rgba(253, 253, 143, 0.85))!important;
+    background-image: -moz-linear-gradient(top, #ffff00, rgba(249, 249, 84, 0.98) 3%, rgba(253, 253, 143, 0.85))!important;
+    background-image: -o-linear-gradient(top, #ffff00, rgba(249, 249, 84, 0.98) 3%, rgba(253, 253, 143, 0.85))!important;
+    background-image: -ms-linear-gradient(top, #ffff00, rgba(249, 249, 84, 0.98) 3%, rgba(253, 253, 143, 0.85))!important;
+    -webkit-border-radius: 10em !important;
+    -moz-border-radius: 10em !important;
+    -ms-border-radius: 10em !important;
+    -o-border-radius: 10em !important;
+    border-radius: 10em !important;
+	
+	z-index: 2 !important;
+    position: absolute !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+	
+	font-size: 1em !important;
+    line-height: 1.6em !important;
+    padding: 0.1em 0.3em !important;
+}
