@@ -39,7 +39,6 @@ Ext.define('CS.parametri.Parametri',{
 					itemId: 'TabPanel', reference: 'TabPanel',
 					cls: 'cbaTabParam',
 					tabBarPosition: 'top',
-					width: '100%',
 					flex: 1,
 					items: [
 						{

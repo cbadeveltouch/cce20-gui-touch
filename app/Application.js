@@ -14,6 +14,11 @@ Ext.define('CbaCssTouch.Application', {
             quickTips: true
         }
     },
+
+    viewport: {
+        nameHolder: false
+    },
+
     launch: function () {
 		// Destroy the #appLoadingIndicator element
         var ali = Ext.fly('appLoadingIndicator');
