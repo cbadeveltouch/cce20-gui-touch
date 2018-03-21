@@ -74,6 +74,7 @@ Ext.define('CS.parametri.TabVitaliController', {
 	},
 	
 	setParametriController: function(parametriController) {
+        let me = this;
         this.cbaConfig.parametriController = parametriController;
 
         this.cbaConfig.parametriController.vitaliController = this;

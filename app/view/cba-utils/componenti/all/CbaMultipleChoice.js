@@ -41,7 +41,7 @@ Ext.define('CbaUtils.componenti.all.CbaMultipleChoice', {
 				{
 
 					xtype: 'container',
-					itemId: 'MultipleChoiceCheck', reference : 'MultipleChoiceCheck',
+					itemId: 'MultipleChoiceCheck',
 					layout: {
 						type: 'vbox',
 						align: i.layout ? i.layout.align : 'stretch'

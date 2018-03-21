@@ -1,17 +1,9 @@
-Ext.define('Ext.layout.fluid', {
-    extend: 'Ext.layout.Box',
-    alias: 'layout.fluid',
-    setContainer: function(container) {
-        this.callSuper(arguments);
-        container.innerElement.replaceCls('x-horizontal', 'x-horizontal-fluid');
-    }
-});
-
 Ext.define('Generali.arch.homeAppMenu.HomeAppMenu',{
     extend: 'Ext.Container',
 
     requires: [
-        'Generali.arch.homeAppMenu.HomeAppMenuController'
+        'Generali.arch.homeAppMenu.HomeAppMenuController',
+		'CbaUtils.componenti.all.FluidLayout'
     ],
 
     controller: 'generali.arch.homeappmenu.homeappmenu',

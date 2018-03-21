@@ -1,17 +1,10 @@
-Ext.define('Ext.layout.fluid', {
-    extend: 'Ext.layout.Box',
-    alias: 'layout.fluid',
-    setContainer: function(container) {
-        this.callSuper(arguments);
-        container.innerElement.replaceCls('x-horizontal', 'x-horizontal-fluid');
-    }
-});
 Ext.define('CS.cruscottoOperatore.calendarioConsegne.winFiltri.WinFiltriMain',{
     extend: 'Ext.Panel',
 
     requires: [
         'CS.cruscottoOperatore.calendarioConsegne.winFiltri.WinFiltriMainController',
-        'CS.personalizzazioni.personConsegne.impostazioni.Impostazioni'
+        'CS.personalizzazioni.personConsegne.impostazioni.Impostazioni',
+        'CbaUtils.componenti.all.FluidLayout'
     ],
 
     controller: 'cartella-cruscottooperatore-calendarioconsegne-winfiltri-winfiltrimain',

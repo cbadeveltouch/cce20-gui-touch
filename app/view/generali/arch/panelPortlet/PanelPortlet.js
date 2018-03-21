@@ -1,12 +1,3 @@
-Ext.define('Ext.layout.Fluid', {
-    extend: 'Ext.layout.Box',
-    alias: 'layout.fluid',
-    setContainer: function(container) {
-        this.callSuper(arguments);
-        container.innerElement.replaceCls('x-horizontal', 'x-horizontal-fluid');
-    }
-});
-
 Ext.define('Generali.arch.panelPortlet.PanelPortlet',{
     extend: 'Ext.Panel',
 
@@ -25,7 +16,8 @@ Ext.define('Generali.arch.panelPortlet.PanelPortlet',{
         'CS.schede.schede.gds.Gds',
         'CS.schede.schede.cgi.Cgi',
         'CS.schede.schede.noppain.Noppain',
-        'CS.schede.schede.morse.Morse'
+        'CS.schede.schede.morse.Morse',
+		'CbaUtils.componenti.all.FluidLayout'
     ],
 
     controller: 'generali-arch-panelportlet-panelportlet',

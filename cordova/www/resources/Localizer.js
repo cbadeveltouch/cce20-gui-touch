@@ -294,8 +294,7 @@ Ext.define("Ext.ux.Localizer", {
 			me.localeStrings = new Ext.util.HashMap();
 			
 			Ext.Ajax.request({
-				// url: `${CbaRootServer}`+"/cba/gen/config/language",
-                url: 'resources/data/language.json',
+				url: `${CbaRootServer}`+"/cba/gen/config/language",
 				method: "GET",
 				async: false,	        			
 				success: function (response) {		

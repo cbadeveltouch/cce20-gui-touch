@@ -91,7 +91,7 @@ Ext.define('Generali.arch.ricercaAvanzata.RicercaAvanzataController', {
 			});
 		}
 		
-		me.lookupReference('MultipleChoiceCheck').setHtml(StdCba.traduci('CS_SPENTO'));
+		me.getView().down('#MultipleChoiceCheck').setHtml(StdCba.traduci('CS_SPENTO'));
 		
 		if( me.cbaConfig.filtriPerson )
 			me.lookupReference('FormFiltri').add( me.cbaConfig.filtriPerson );

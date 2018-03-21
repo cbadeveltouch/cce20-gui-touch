@@ -1,12 +1,3 @@
-Ext.define('Ext.layout.fluid', {
-    extend: 'Ext.layout.Box',
-    alias: 'layout.fluid',
-    setContainer: function(container) {
-        this.callSuper(arguments);
-        container.innerElement.replaceCls('x-horizontal', 'x-horizontal-fluid');
-    }
-});
-
 Ext.define('Generali.arch.menuFascicolo.MenuFascicolo',{
     extend: 'Ext.Container',
 
@@ -16,7 +7,8 @@ Ext.define('Generali.arch.menuFascicolo.MenuFascicolo',{
         'CS.diari.Diario',
         'CS.parametri.Parametri',
         'CS.eventi.cadute.Cadute',
-        'CS.eventi.contenzioni.Contenzioni'
+        'CS.eventi.contenzioni.Contenzioni',
+		'CbaUtils.componenti.all.FluidLayout'
     ],
 
     controller: 'generali.arch.menufascicolo.menufascicolo',

@@ -1,18 +1,10 @@
-Ext.define('Ext.layout.Fluid', {
-    extend: 'Ext.layout.Box',
-    alias: 'layout.fluid',
-    setContainer: function(container) {
-        this.callSuper(arguments);
-        container.innerElement.replaceCls('x-horizontal', 'x-horizontal-fluid');
-    }
-});
-
 Ext.define('CS.menuAzioni.parametriDiariMenu.ParametriDiariMenu',{
     extend: 'Ext.Container',
 
     requires: [
         'CS.menuAzioni.parametriDiariMenu.ParametriDiariMenuController',
-        'CS.menuAzioni.parametriInsert.ParametriInsert'
+        'CS.menuAzioni.parametriInsert.ParametriInsert',
+		'CbaUtils.componenti.all.FluidLayout'
     ],
 
     controller: 'cartella.menuazioni.parametridiarimenu.parametridiarimenu',

@@ -201,7 +201,7 @@ Ext.define('CS.parametri.ParametriController', {
 
 		Ext.Ajax.request({
             method:'GET',
-            async: false, //caso eccezionale dobbiamo fare una chiamata asicrona in modo da evitare problemi di render
+            // async: false, //caso eccezionale dobbiamo fare una chiamata asicrona in modo da evitare problemi di render
             url:`${CbaRootServer}`+'/cba/css/cs/ws/pwd/videatepwd/getbycodvideata',
             params:{
             	codVideata: codVideata,
@@ -215,16 +215,19 @@ Ext.define('CS.parametri.ParametriController', {
                 	
                 	tabPanel.cbaConfig.permesso = risposta.data.tipoPermesso;
                 	if(risposta.data.tipoPermesso == 'N'){
+                		Ext.suspendLayouts();
                 		tabPanel.tab.hide();
                 		/* in caso di permesso videata == N la tab viene nascosta e seleziono l'altra  */
                 		if(tabPanel.getItemId().indexOf('TabVitali') == 0) me.lookupReference('TabPanel').setActiveTab(me.lookupReference('TabClinici'));
                 		else me.lookupReference('TabPanel').setActiveTab(me.lookupReference('TabVitali'));
+                        Ext.resumeLayouts(true);
                 		
                 	}else if(risposta.data.tipoPermesso == 'L'){
+                        Ext.suspendLayouts();
                 		me.cbaConfig.controllerPageStd.cbaConfig.permesso = 'L';
                 		tabPanel.tab.setIconCls('cbaCssLockPng') 		 //in questo caso  � tutto in sola lettura 
                 		StdCba.containerSolaLettura(tabPanel, true);
-                		
+                        Ext.resumeLayouts(true);
                 	}
                 }
             }
