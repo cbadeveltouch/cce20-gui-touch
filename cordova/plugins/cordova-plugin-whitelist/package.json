@@ -10,7 +10,7 @@
         "spec": ">=1.0.0 <2.0.0",
         "type": "range"
       },
-      "c:\\xampp\\htdocs\\CbaCssTouch\\cordova"
+      "/Users/federico/Projects/sencha/cba/cordova"
     ]
   ],
   "_from": "cordova-plugin-whitelist@>=1.0.0 <2.0.0",
@@ -45,7 +45,7 @@
   "_shasum": "b5e85ecdbbfe5aeded40a1bf4ee2372e67d96fb4",
   "_shrinkwrap": null,
   "_spec": "cordova-plugin-whitelist@1",
-  "_where": "c:\\xampp\\htdocs\\CbaCssTouch\\cordova",
+  "_where": "/Users/federico/Projects/sencha/cba/cordova",
   "author": {
     "name": "Apache Software Foundation"
   },

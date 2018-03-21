@@ -669,16 +669,8 @@ Ext.define('CS.parametri.ParametriController', {
 		me.idRicovero =  me.cbaConfig.anagraficaCorrente ? me.cbaConfig.anagraficaCorrente.idRicovero : null;
 		me.cbaConfig.tipoConsegna = 'V';
 		
-		this.lookupReference('TabVitali').add(Ext.create('CS.parametri.TabVitali',{
-			cbaConfig:{
-				parametriController: this
-			}
-		}));
-		this.lookupReference('TabClinici').add(Ext.create('CS.parametri.TabClinici',{
-			cbaConfig:{
-				parametriController: this
-			}
-		}));
+		this.lookupReference('TabVitaliView').getController().setParametriController(this);
+		this.lookupReference('TabCliniciView').getController().setParametriController(this);
 		
 		me.caricaPermessiTabPanel(me.lookupReference('TabClinici'), 'Parametri Clinici', 49, CBA.parametriGenerali.idProfiloPwdDe);
 		me.caricaPermessiTabPanel(me.lookupReference('TabVitali'), 'Parametri Vitali', 49, CBA.parametriGenerali.idProfiloPwdDe);

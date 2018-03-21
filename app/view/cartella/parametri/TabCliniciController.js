@@ -10,37 +10,41 @@ Ext.define('CS.parametri.TabCliniciController', {
 		me.loadCbox(me.lookupReference('SelectComportamento').getStore(), 3, 60);
 		me.loadCbox(me.lookupReference('SelectAttivita').getStore(), 5, 40);
 	},
+
+    setParametriController: function(parametriController) {
+        this.cbaConfig.parametriController = parametriController;
+
+        this.cbaConfig.parametriController.cliniciController = this;
+
+        this.cbaConfig.parametriController.cntParametri.push(
+            {
+                parametro: this.lookupReference('SelectMobilita'),
+                nomeCampo: 'MOBILITA',
+                name: 'mobilita',
+                tabRif: 'C',
+                getValoreCampo: this.getValoreCampo
+            },
+            {
+                parametro: this.lookupReference('SelectSonno'),
+                nomeCampo: 'SONNO',
+                name: 'sonno',
+                tabRif: 'C',
+                getValoreCampo: this.getValoreCampo
+            },
+            {
+                parametro: this.lookupReference('SelectAlvo'),
+                nomeCampo: 'ALVO',
+                name: 'alvo',
+                tabRif: 'C',
+                getValoreCampo: this.getValoreCampo
+            }
+        )
+    },
     
     init: function(){
     	this.callParent(arguments);
-    	
-    	this.cbaConfig.parametriController.cliniciController = this;
-    	
+
     	this.loadRisposte();
-    	
-    	this.cbaConfig.parametriController.cntParametri.push(
-			{
-				parametro: this.lookupReference('SelectMobilita'),
-				nomeCampo: 'MOBILITA',
-				name: 'mobilita',
-				tabRif: 'C',
-				getValoreCampo: this.getValoreCampo
-			},
-			{
-				parametro: this.lookupReference('SelectSonno'),
-				nomeCampo: 'SONNO',
-				name: 'sonno',
-				tabRif: 'C',
-				getValoreCampo: this.getValoreCampo
-			},
-			{
-				parametro: this.lookupReference('SelectAlvo'),
-				nomeCampo: 'ALVO',
-				name: 'alvo',
-				tabRif: 'C',
-				getValoreCampo: this.getValoreCampo
-			}
-		)
     },
     
     destroy: function(){

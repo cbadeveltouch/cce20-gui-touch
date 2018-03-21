@@ -1,6 +1,7 @@
 
 Ext.define('CS.parametri.TabClinici',{
     extend: 'Ext.Container',
+    xtype: 'parametritabclinici',
 
     requires: [
         'CS.parametri.TabCliniciController',

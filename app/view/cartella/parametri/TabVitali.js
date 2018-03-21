@@ -1,5 +1,6 @@
 Ext.define('CS.parametri.TabVitali',{
     extend: 'Ext.Container',
+	xtype: 'parametritabvitali',
     
     requires: [
     	'CS.parametri.TabVitaliController'
